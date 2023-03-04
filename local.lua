@@ -1,5 +1,5 @@
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("Reflexx Hub","Synapse")
+local window = kavoUi.CreateLib("Reflexx Hub","BloodTheme")
  
 ---Tabs
  
