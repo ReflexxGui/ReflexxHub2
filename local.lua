@@ -17,15 +17,24 @@ local Tab3Section = Tab3:NewSection("Others GUI'S")
  
 ---Buttons
  
+Tab1Section:NewButton("[🔥UPD] Sword Fighters Simulator (1)", "Auto Farm",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/accountnop/Insight/script/SFS.lua"))()
+end)
+
+Tab1Section:NewButton("[🔥UPD] Sword Fighters Simulator (2)", "Auto Collect",function()
+loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()
+end)
+
+
  Tab1Section:NewButton("Adopt Me! (key in desc)","key: DH_11CYGANIDYWANY (idk work)",function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
 end)
 
-Tab1Section:NewButton("Brookhaven🏡RP","No description",function()
+Tab1Section:NewButton("Brookhaven RP","No description",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 
-Tab1Section:NewButton("[🐯🍩UPDATE]Blox Friuts","No description",function()
+Tab1Section:NewButton("[UPDATE]Blox Friuts","No description",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
