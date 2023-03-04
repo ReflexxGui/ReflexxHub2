@@ -1,5 +1,5 @@
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("Reflexx Hub","BloodTheme")
+local window = kavoUi.CreateLib("Reflexx Hub","Synapse")
  
 ---Tabs
  
@@ -59,20 +59,20 @@ end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua"))()
 end)
 
-Tab1Section:NewButton("🦃 Pet Simulator X 🐾 (key in desc)","key: projectWBIsAwesomeG8J7GJ678PY",function()
+Tab1Section:NewButton("Pet Simulator X (key in desc)","key: projectWBIsAwesomeG8J7GJ678PY",function()
 getgenv().key = "projectWBIsAwesomeG8J7GJ678PY"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
 end)
 
-Tab1Section:NewButton("🗳️MAP VOTING🗳️ Tower Defense Simulator(PATCHED)","No description",function()
+Tab1Section:NewButton("MAP VOTING Tower Defense Simulator(PATCHED)","No description",function()
 end)
 
-Tab1Section:NewButton("Bedwars 🛰️ [NEW KIT!]","No description",function()
+Tab1Section:NewButton("Bedwars [NEW KIT!]","No description",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bojoexploitz/yooo/main/itsobfuscated/InfinityHubTooOP", true))()
 end)
 
-Tab1Section:NewButton("Pop It Trading ✨️","No description",function()
-
+Tab1Section:NewButton("Pop It Trading ","No description",function()
+		
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("buy robux items", "BloodTheme")
 
